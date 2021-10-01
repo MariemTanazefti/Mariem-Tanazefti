@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style type="text/css">
+body{font-family:arial;text-align:center;background-color:#F5F5DC}
+
+header img{
+width:100%;
+height:250px;}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #008080;
+	margin-right: 26px;
+	width:100%;
+	
+
+}
+
+
+footer{
+background-color:#008080;
+}
+li {
+    float: left;
+    border-right:5px solid #bbb;
+	margin-right: 30px;
+}
+
+header h1{
+text-align:center;
+
+}
+
+a li {
+    display: inline-block;
+    color: white;
+    padding: 9px 0 9px 50px;
+    text-decoration: none;
+	text_align:center;
+}
+
+p,footer{
+font-weight:bold;
+margin:20px;}
+
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit], input[type=reset]{width:100px;
+ margin-left:5px;
+ box-shadow:1px 1px 1px #D83F3D;
+ cursor:pointer;}
+ 
+.frm{
+width:50%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  margin-top: 6px;
+}
+
+.container{
+padding: 20px;
+
+}
+
+.ll{
+  width:5%;
+  margin-top: 6px;
+}
+
+.txt{
+width:51%;
+margin-top: 6px;
+}
+
+footer{
+text-align:center;
+width:100%;
+
+}
+
+
+</style>
+</head>
+<body>
+<header>
+<img src="images/banniere2.jpg" alt="Banniere"/>
+</header>
+<ul>
+<a href="acceuil.html"><li>Acceuil</li></a>
+<a href="books.html"><li>Books</li></a>
+<a href="contact.html"><li>Contact</li></a>
+</ul>
+<div>
+<p>Veuillez remplir ce formulaire svp</p>
+<form method="post" class="container">
+<fieldset>
+<label for="nom" class="ll">Nom</label>
+<input type="text" name="nom" class="frm"/><br>
+<label for="prenom"class="ll">Prenom</label>
+<input type="text" name="prenom"class="frm"/><br>
+<label for="mail" class="ll">Email</label>
+<input type="text" name="mail"class="frm"/><br>
+<label for="sujet"class="ll">Sujet</label>
+<input type="text" name="sujet"/class="frm"><br><br>
+<label for="message"class="ll">Message</label>
+<textarea type="text" name="tt" class="txt"></textarea><br><br>
+<input type="submit" value="Envoyer"/>
+<input type="reset" value="Annuler"/>
+</fieldset>
+</form>
+</div>
+<footer>Copyright© Ebooks2021</footer>
+
+</body>
+</html>
